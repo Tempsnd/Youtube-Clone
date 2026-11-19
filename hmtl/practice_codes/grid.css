@@ -1,0 +1,41 @@
+.gridprac {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 10px;
+  column-gap: 20px;
+  margin-bottom: 20px;
+
+}
+
+.col {
+  height: 20px;
+  background-color: pink;
+  
+}
+
+.gridprac1 {
+  display: grid;
+  grid-template-columns: 50px 1fr 75px;
+}
+
+.col1 {
+  background-color: pink;
+}
+
+.col2 {
+  background-color: lightblue;
+}
+
+.gridprac2 {
+  display: grid;
+  grid-template-columns: 200px 75px;
+  margin-top: 20px;
+} 
+
+.px200 {
+  background-color: lightblue;
+}
+
+.px75 {
+  background-color: pink;
+}

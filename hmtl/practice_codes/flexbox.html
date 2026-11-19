@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flex box Practice</title>
+    <link rel="stylesheet" href="flexbox.css">
+  </head>
+  <body style="
+    padding-bottom: 1000px;
+  ">
+    <div style="
+      display: flex;
+      flex-direction: row;
+      ">
+      <div style=" background-color: lightblue;">div 1</div>
+      <div style=" background-color: pink;">div 2</div>
+    </div>
+
+    <div style="
+      display: flex;
+      flex-direction: row;
+      margin-top: 30px;
+      ">
+      <div style=" background-color: lightblue;
+        width: 100px;
+        ">100px</div>
+      <div style=" background-color: pink;
+        flex: 1;
+        ">flex: 1</div>
+    </div>
+
+    <div style="
+      display: flex;
+      flex-direction: row;
+      margin-top: 30px;
+      ">
+      <div style=" background-color: lightblue;
+        flex: 1;
+        ">flex: 1</div>
+      <div style=" background-color: pink;
+        width: 100px;
+        ">100px</div>
+      <div style=" background-color: lightblue;
+        flex: 2;
+        ">flex: 2</div>
+    </div>
+
+    <div style="
+      display: flex;
+      height: 70px;
+      border-width: 1px;
+      border-style: solid;
+      border-color: gray;
+      flex-direction: row;
+      margin-top: 30px;
+      justify-content: center;
+      ">
+      <div style=" background-color: lightblue;
+        width: 100px;
+        ">100px</div>
+      <div style=" background-color: pink;
+        width: 100px;
+        ">100px</div>
+      <div style=" background-color: lightblue;
+        width: 100px;
+        ">100px</div>
+    </div>
+
+    <div style="
+      display: flex;
+      height: 70px;
+      border-width: 1px;
+      border-style: solid;
+      border-color: gray;
+      flex-direction: row;
+      margin-top: 30px;
+      justify-content: space-between;
+      ">
+      <div style=" background-color: lightblue;
+        width: 100px;
+        ">100px</div>
+      <div style=" background-color: pink;
+        width: 100px;
+        ">100px</div>
+      <div style=" background-color: lightblue;
+        width: 100px;
+        ">100px</div>
+    </div>
+
+    <div style="
+      display: flex;
+      height: 70px;
+      border-width: 1px;
+      border-style: solid;
+      border-color: gray;
+      flex-direction: row;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      justify-content: space-between;
+      align-items: center;
+      ">
+      <div style=" background-color: lightblue;
+        width: 100px;
+        ">100px</div>
+      <div style=" background-color: pink;
+        width: 100px;
+        ">100px</div>
+      <div style=" background-color: lightblue;
+        width: 100px;
+        ">100px</div>
+    </div>
+
+    <div style="
+      display: flex;
+    ">
+      <div style="
+        background-color: lightblue;
+        width: 200px;
+        ">100px</div>
+        <div style="
+        background-color: pink;
+        width: 75px;
+        ">75px</div>
+    </div>
+
+    <div style="
+      display: flex;
+      flex-direction: row;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      
+    ">
+      <div style="
+        background-color: lightblue;
+        width: 50px;
+        
+        ">item 1</div>
+      <div style="
+        background-color: pink;
+        flex: 1;
+      ">item 2</div>
+      <div style="
+        background-color: lightblue;
+        width: 75px;
+      ">item 3</div>
+    </div>
+
+    <div style="
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    ">
+      <div style="
+        background-color: pink;
+        ">item 1</div>
+      <div style="
+        background-color: pink;
+        ">item 2</div>
+      <div style="
+        background-color: pink;
+        ">item 3</div>
+      <div style="
+        background-color: pink;
+        ">item 4</div>
+    </div>
+
+    <div style="
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 20px;
+      height: 50px;
+      align-items: center;
+      border-style: solid;
+      border-width: 1px;
+
+     
+    ">
+      <div style="
+        background-color: pink;
+        ">item 1</div>
+      <div style="
+        background-color: pink;
+      ">item 2</div>
+    </div>
+
+    <div class="header">
+      <div class="home-link">Home</div>
+      <input class="search-bar" type="text" placeholder="Search">
+      <button class="dl-btn">Download</button>
+    </div>
+
+  <div class="inbox">
+    <p>ALL INBOXES</p>
+
+  <div class="inbox-item">              <!-- horizontal: flex -->
+
+    <div class="profile">
+      <img>
+    </div>
+
+    <div class="inbox-contents">        <!-- vertical: plain div -->
+
+      <div class="top-row">             <!-- horizontal: flex -->
+
+        <div class="bold-text">         <!-- vertical: plain div -->
+          <!-- sender -->
+          <!-- subject -->
+        </div>
+
+        <!-- time -->
+
+      </div>
+
+      <div class="preview">
+        <!-- gray preview text -->
+      </div>
+
+    </div>
+  </div>
+</div>
+  
+  </body>
+</html>

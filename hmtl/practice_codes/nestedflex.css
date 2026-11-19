@@ -1,0 +1,149 @@
+p {
+  margin-top: 0;
+  margin-bottom: 5px;
+  color: gray;
+  font-family: Arial;
+}
+
+.inbox {
+  border: 1px solid rgb(231, 231, 231);
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+  padding: 10px 10px 15px 15px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.inbox-contents {
+ display: flex;
+ align-items: center;
+ margin-top: 15px ;
+
+}
+
+
+.inbox-profile {
+ margin-right: 13px;
+}
+
+.profile {
+  height: 65px;
+  border-radius: 33px;
+}
+
+.inbox-info {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.inbox-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.title, .hook-msg{
+  font-weight: bold;
+  font-size: 19px;
+  color: black;
+
+}
+
+.inbox-preview {
+  margin-top: 0;
+}
+
+.vid-promote {
+  font-family: arial;
+  display: flex;
+  flex-direction: column;
+}
+
+.upper-part {
+  display: flex;
+  align-items: center;
+} 
+
+
+
+.image {
+  height: 65px;
+  border-radius: 50%;
+  
+}
+
+.post {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+}
+
+.post-title {
+  display: flex;
+  align-items: center;
+  font-family: arial;
+  
+}
+
+.user {
+  font-weight: bold;
+  color: black;
+  font-size: 19px; 
+   
+}
+
+.user-hash {
+  padding: 5px;
+  color: #5D636D;
+  
+  
+}
+
+.post-info {
+  font-family: arial;  
+}
+
+.post-def {
+  color: black;
+  font-weight: 600;
+}
+
+.lower-part {
+  display: flex;
+  border: 1px solid lightgray;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-left: 76px;
+}
+
+.lower-left {
+  display: flex;
+  
+}
+
+.vid-preview {
+  background-color: lightgrey;
+  width: 100px;
+}
+
+.lower-right {
+  padding: 15px;
+}
+
+.lr-info {
+  
+}
+
+.url {
+  color: #63686d;
+  font-size: 19px;
+}
+
+.lr-def {
+  color: black;
+  font-weight: 600;
+  width: 300px;
+}
+

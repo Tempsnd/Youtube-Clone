@@ -1,0 +1,91 @@
+.menu {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: solid;
+  border-width: 1px;
+  border-color: gray ;
+  border-radius: 10px;
+
+}
+
+.menu_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+p {
+  font-family: arial;
+  font-size: 19px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+
+.badge {
+  border: none;
+  background-color: #416CED;
+  color: white;
+  font-size: 16px;
+  font-family: arial;
+  font-weight: bold;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 20px;
+}
+
+.header {
+  height: 55px;
+  display: flex;  
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #7354AD;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 20px
+}
+
+.home-link {
+  color: white;
+  font-family: arial;
+  font-weight: bold;
+}
+
+.search-bar {
+  height: 30px;
+  width: 350px;
+  border-radius: 20px;
+  border: none;
+  padding-left: 15px;
+}
+
+.dl-btn {
+  border: none;
+  background-color: rgb(120, 82, 178);;
+  color: white;
+  font-size: 16px;
+  border: 1px white solid;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.inbox {
+  
+}
+
+.inbox-profile {
+
+}
+
+.profile {
+  height: 60px;
+  border-radius: 30px;
+  
+}
